@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -49,9 +50,24 @@
             border-radius:10px;
         }
 
+        .card a{
+            display:inline-block;
+            margin-top:10px;
+            padding:10px 20px;
+            background:#38bdf8;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+        }
+
+        .card a:hover{
+            background:#0ea5e9;
+        }
+
         footer{
             padding:30px;
             background:#111827;
+            margin-top:40px;
         }
     </style>
 </head>
@@ -60,58 +76,64 @@
 
 <header>
 
-<h1>Hello</h1>
+    <h1>Hello 👋</h1>
 
-<h2>My name is Tamas</h2>
+    <h2>My name is Tamas</h2>
 
-<p>Junior web developer</p>
+    <p>Junior Web Developer</p>
 
-<a class="btn" href="#projektek">My projects</a>
+    <a class="btn" href="#projektek">My Projects</a>
 
 </header>
 
 <section>
 
-<h2>About me</h2>
+    <h2>About Me</h2>
 
-<div class="card">
+    <div class="card">
 
-<p>
-I am currently learning HTML, CSS and JavaScript development. 
-This is my own portfolio page.
-</p>
+        <p>
+            I am currently learning HTML, CSS and JavaScript development.
+            This is my own portfolio page.
+        </p>
 
-</div>
+    </div>
 
 </section>
 
-<div class="card">
+<section id="projektek">
 
-<h3>To-do application</h3>
+    <h2>My Projects</h2>
 
-<p>A simple task management app using HTML, CSS and JavaScript.</p>
+    <div class="card">
 
-<a href="https://TommatoJuice.github.io/todo-app/" target="_blank">
-Open
-</a>
+        <h3>📝 To-do Application</h3>
 
-<div class="card">
+        <p>A simple task management app using HTML, CSS and JavaScript.</p>
 
-<h3>🌤 Weather App</h3>
+        <a href="https://TommatoJuice.github.io/todo-app/" target="_blank">
+            Open
+        </a>
 
-<p>Simple weather app with Open-Meteo API</p>
+    </div>
 
-<a href="https://TommatoJuice.github.io/weather-app/" target="_blank">
-🌍 Try
-</a>
+    <div class="card">
 
-</div>
+        <h3>🌤 Weather App</h3>
+
+        <p>Simple weather app using the Open-Meteo API.</p>
+
+        <a href="https://TommatoJuice.github.io/weather-app/" target="_blank">
+            Try
+        </a>
+
+    </div>
 
 </section>
 
 <footer>
 
-© 2026 TommatoJuice
+    © 2026 TommatoJuice
 
 </footer>
 
